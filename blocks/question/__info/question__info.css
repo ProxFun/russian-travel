@@ -1,0 +1,10 @@
+.question__info {
+  width: 690px;
+  height: 90px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+  margin: 33px 0 0;
+}

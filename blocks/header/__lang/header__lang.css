@@ -1,0 +1,14 @@
+.header__lang {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 46px;
+  right: 48px;
+  width: 78px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang {
+    right: 24px;
+  }
+}

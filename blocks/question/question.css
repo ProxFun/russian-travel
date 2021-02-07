@@ -1,0 +1,17 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  margin: 92px 148px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .question {
+    margin: 92px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .question {
+    margin: 88px 0 0;
+  }
+}

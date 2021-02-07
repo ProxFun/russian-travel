@@ -1,0 +1,35 @@
+.to-baikal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 740px;
+  margin: 92px auto 0;
+  position: relative;
+}
+
+.to-baikal:before {
+  content: "";
+  background: url(../../images/to-baikal.png) center center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.to-baikal:hover:before {
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 1024px) {
+  .to-baikal {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .to-baikal {
+    height: 480px;
+  }
+}

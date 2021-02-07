@@ -1,0 +1,18 @@
+.places__url-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__url-block {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places__url-block {
+    width: 352px;
+  }
+}

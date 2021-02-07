@@ -1,0 +1,9 @@
+.places__url {
+  color: #aaaaaa;
+  font-size: 12px;
+  line-height: 12px;
+  width: 456px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0;
+}

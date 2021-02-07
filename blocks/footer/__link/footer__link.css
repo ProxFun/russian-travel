@@ -1,0 +1,17 @@
+.footer__link {
+  display: inline;
+  margin-left: 18px;
+}
+
+.footer__link:first-child {
+  margin-left: 0;
+}
+
+.footer__link > a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__link > :hover {
+  opacity: 0.8;
+}
