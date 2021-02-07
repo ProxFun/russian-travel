@@ -2,9 +2,6 @@
   text-decoration: none;
   color: white;
   height: 28px;
-  width: 30px;
-  font-size: 24px;
-  line-height: 28px;
 }
 
 .header__lang-link:active,
@@ -16,3 +13,4 @@
 #en-lang:target, #ru-lang:target {
   text-decoration: underline;
 }
+

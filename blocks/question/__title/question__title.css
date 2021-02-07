@@ -6,3 +6,11 @@
   line-height: 58px;
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .question__title {
+    width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

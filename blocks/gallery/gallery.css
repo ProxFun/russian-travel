@@ -24,3 +24,12 @@
     width: 80%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(1, calc(100% / 2));
+    gap: 16px;
+    margin: 88px 0 0;
+    width: 80%;
+  }
+}
