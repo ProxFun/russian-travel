@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .question__paragraph {
+  .question__info {
     width: 288px;
     margin: 34px 0 0;
   }

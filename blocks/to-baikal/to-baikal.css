@@ -10,6 +10,7 @@
 .to-baikal:before {
   content: "";
   background: url(../../images/to-baikal.png) center center;
+  background-size: cover;
   position: absolute;
   top: 0;
   right: 0;
@@ -31,5 +32,11 @@
 @media screen and (max-width: 768px) {
   .to-baikal {
     height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .to-baikal {
+    height: 200px;
   }
 }

@@ -7,3 +7,19 @@
   text-align: center;
   position: relative;
 }
+
+
+@media screen and (max-width: 768px) {
+  .to-baikal__title {
+    width: 288px;
+    margin: 115px auto 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .to-baikal__title {
+    margin: 33px auto 0;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

@@ -11,8 +11,15 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .places__url-block {
     width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__url-block {
+    width: 100%;
+    margin: 32px 0 0 0;
   }
 }
