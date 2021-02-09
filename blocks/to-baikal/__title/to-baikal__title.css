@@ -1,24 +1,16 @@
 .to-baikal__title {
-  margin: 245px auto 0;
-  width: 560px;
+  margin: 0;
+  max-width: 560px;
   font-weight: 900;
-  font-size: 72px;
+  font-size: 11vw;
   line-height: 76px;
   text-align: center;
   position: relative;
 }
 
-
-@media screen and (max-width: 768px) {
-  .to-baikal__title {
-    width: 288px;
-    margin: 115px auto 0;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .to-baikal__title {
-    margin: 33px auto 0;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
   }

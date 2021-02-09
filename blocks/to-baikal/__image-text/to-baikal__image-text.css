@@ -1,0 +1,16 @@
+.to-baikal__image-text {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .to-baikal__image-text {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .to-baikal__image-text {
+    max-width: 320px;
+  }
+}

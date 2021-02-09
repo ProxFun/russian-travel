@@ -1,7 +1,8 @@
 .question {
   display: flex;
   flex-direction: column;
-  margin: 92px 148px 0;
+  margin: 92px 0 0 100px;
+  max-width: 690px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,12 +13,14 @@
 
 @media screen and (max-width: 768px) {
   .question {
-    margin: 88px 0 0;
+    max-width: 720px;
+    margin: 88px 24px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .question {
+    max-width: 288px;
     margin: 64px 16px 0;
   }
 }

@@ -1,9 +1,4 @@
 .gallery__image {
-  padding: 0;
-}
-
-@media screen and (max-width: 320px) {
-  .gallery {
-    width: 288px;
-  }
+  object-fit: fill;
+  width: 100%;
 }

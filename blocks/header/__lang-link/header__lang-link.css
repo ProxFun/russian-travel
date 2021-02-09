@@ -1,7 +1,6 @@
 .header__lang-link {
   text-decoration: none;
   color: white;
-  height: 28px;
 }
 
 .header__lang-link:active,
@@ -12,5 +11,9 @@
 
 #en-lang:target, #ru-lang:target {
   text-decoration: underline;
+}
+
+.header__lang-link:last-child {
+  margin-left: 18px;
 }
 

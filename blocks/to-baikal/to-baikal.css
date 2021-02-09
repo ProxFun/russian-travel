@@ -1,16 +1,18 @@
 .to-baikal {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 740px;
-  margin: 92px auto 0;
+  min-height: 740px;
+  margin: 92px 48px 0;
   position: relative;
+  justify-content: center;
+  align-items: center;
+  object-position: 100% 50%;
 }
 
 .to-baikal:before {
   content: "";
-  background: url(../../images/to-baikal.png) center center;
   background-size: cover;
+  background: url(../../images/to-baikal.png) no-repeat;
   position: absolute;
   top: 0;
   right: 0;
@@ -25,18 +27,19 @@
 
 @media screen and (max-width: 1024px) {
   .to-baikal {
-    height: 640px;
+    margin: 92px 0 0;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .to-baikal {
-    height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .to-baikal {
-    height: 200px;
+    min-height: 200px;
   }
 }

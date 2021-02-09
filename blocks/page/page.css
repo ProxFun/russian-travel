@@ -5,11 +5,8 @@
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   color: #ffffff;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
-@media screen and (max-width: 1024px) {
-  .page {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-}

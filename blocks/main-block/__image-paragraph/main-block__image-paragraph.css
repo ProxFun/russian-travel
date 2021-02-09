@@ -1,0 +1,21 @@
+.main-block__image-paragraph {
+  margin: 8px 0 0;
+  max-width: 158px;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 768px) {
+  .main-block__image-paragraph {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-block__image-paragraph {
+    margin-left: 16px;
+  }
+}
