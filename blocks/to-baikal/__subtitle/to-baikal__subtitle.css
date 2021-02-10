@@ -2,7 +2,7 @@
   margin: 32px auto 0;
   padding: 0;
   max-width: 360px;
-  font-size: 18px;
+  font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
   line-height: 22px;
   text-align: center;
   position: relative;
@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 320px) {
   .to-baikal__subtitle {
-    font-size: 14px;
     line-height: 16px;
     margin: 16px auto 0;
     max-width: 288px;

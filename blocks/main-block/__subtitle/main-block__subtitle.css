@@ -2,14 +2,21 @@
   padding: 0;
   max-width: 640px;
   margin: 32px auto 0;
-  font-size: 5vw;
-  line-height: 36px;
+  font-size: 2rem;
+  line-height: 1.36;
   text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .main-block__subtitle {
+    max-width: 83%;
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
+  }
 }
 
 @media screen and (max-width: 320px) {
   .main-block__subtitle {
-    margin-top: 16px;
+    margin: 16px 16px 0;
     max-width: 288px;
     line-height: 20px;
   }
