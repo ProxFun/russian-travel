@@ -1,17 +1,17 @@
-.to-baikal__title {
+.bottom-image__title {
   margin: 0;
   max-width: 560px;
   font-weight: 900;
   font-size: 4.5rem;
-  line-height: 76px;
+  line-height: 106%;
   text-align: center;
   position: relative;
 }
 
 @media screen and (max-width: 768px) {
-  .to-baikal__title {
+  .bottom-image__title {
     max-width: 100%;
     font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
-    line-height: 1.35;
+    line-height: 109%;
   }
 }

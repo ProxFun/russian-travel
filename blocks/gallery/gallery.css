@@ -3,7 +3,7 @@
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(4, 1fr);
-  margin: 92px auto 0;
+  margin: 92px 48px 0;
   padding: 0;
 }
 
@@ -11,7 +11,7 @@
   .gallery {
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
-    margin: 92px 0 0;
+    margin: 92px 48px 0;
     max-width: 100%;
   }
 }

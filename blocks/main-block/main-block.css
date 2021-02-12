@@ -1,10 +1,16 @@
 .main-block {
   display: flex;
   flex-direction: column;
-  margin: 56px 100px 0;
+  margin: 56px 148px 0;
 }
 
 @media screen and (max-width: 1024px) {
+  .main-block {
+    margin: 48px 48px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .main-block {
     margin: 48px 0 0;
   }

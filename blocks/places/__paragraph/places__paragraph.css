@@ -11,9 +11,3 @@
     margin-top: 25px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .places__paragraph {
-    margin-top: 25px;
-  }
-}

@@ -3,15 +3,15 @@
   color: white;
 }
 
-.header__lang-link:active,
-.header__lang-link:hover,
-.header__lang-link:visited {
-  text-decoration: underline;
-}
+/*.header__lang-link:active,*/
+/*.header__lang-link:hover,*/
+/*.header__lang-link:visited {*/
+/*  text-decoration: underline;*/
+/*}*/
 
-#en-lang:target, #ru-lang:target {
-  text-decoration: underline;
-}
+/*#en-lang:target, #ru-lang:target {*/
+/*  text-decoration: underline;*/
+/*}*/
 
 .header__lang-link:last-child {
   margin-left: 18px;

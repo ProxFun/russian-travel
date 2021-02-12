@@ -1,16 +1,18 @@
-.to-baikal__image-text {
+.bottom-image__image-text {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
-  .to-baikal__image-text {
+  .bottom-image__image-text {
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .to-baikal__image-text {
+  .bottom-image__image-text {
     max-width: 320px;
   }
 }

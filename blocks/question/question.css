@@ -1,13 +1,13 @@
 .question {
   display: flex;
   flex-direction: column;
-  margin: 92px 0 0 100px;
+  margin: 92px 0 0 148px;
   max-width: 690px;
 }
 
 @media screen and (max-width: 1024px) {
   .question {
-    margin: 92px 0 0;
+    margin: 92px 48px 0;
   }
 }
 
