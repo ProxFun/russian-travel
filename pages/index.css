@@ -28,10 +28,11 @@
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__paragraph-block/places__paragraph-block.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
-@import url(../blocks/bottom-image/bottom-image.css);
-@import url(../blocks/bottom-image/__image-text/bottom-image__image-text.css);
-@import url(../blocks/bottom-image/__title/bottom-image__title.css);
-@import url(../blocks/bottom-image/__subtitle/bottom-image__subtitle.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__image-text/cover__image-text.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__links/footer__list.css);

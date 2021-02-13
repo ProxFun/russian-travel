@@ -1,0 +1,26 @@
+.cover__image {
+  background: url(../../../images/to-baikal.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cover__image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(42, 44, 47, .3);
+}
+
+.cover__image:hover:before {
+  background-color: rgba(42, 44, 47, .8);
+}

@@ -1,18 +1,17 @@
-.bottom-image__image-text {
+.cover__image-text {
   display: flex;
   flex-direction: column;
-  text-decoration: none;
   color: white;
 }
 
 @media screen and (max-width: 768px) {
-  .bottom-image__image-text {
+  .cover__image-text {
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .bottom-image__image-text {
+  .cover__image-text {
     max-width: 320px;
   }
 }

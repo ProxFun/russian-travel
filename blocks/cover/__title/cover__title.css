@@ -1,4 +1,4 @@
-.bottom-image__title {
+.cover__title {
   margin: 0;
   max-width: 560px;
   font-weight: 900;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .bottom-image__title {
+  .cover__title {
     max-width: 100%;
     font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (768 - 320)));
     line-height: 109%;
